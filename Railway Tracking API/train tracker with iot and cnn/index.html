@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <!-- Application header -->
+        <div class="header">
+            <h1>TRAIN API</h1>
+            <h3>A RESTful API to get up to date
+                railway information.
+            </h3>
+                
+            <div style="text-align: left; padding: 40px;">
+                <div>
+                    <!-- Form to access trainDetails.php -->
+                    <form method="get"action ="trainDetails.php">
+                        Train List: <button type="submit">View Train List</button>
+                    </form>
+                </div>
+                <div>
+                    <!-- Form to access trainSchedule.php -->
+                    <form method="get"action ="trainSchedule.php">
+                        Enter Train Number : <input type="text" name="t_no">
+                        <button type="submit">View Individual Train Info</button>
+                    </form>
+                </div>
+            </div>   
+            
+        </div>
+        
+
+    </body>
+</html>
